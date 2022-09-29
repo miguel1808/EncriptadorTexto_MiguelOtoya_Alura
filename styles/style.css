@@ -192,3 +192,68 @@ footer p{
     height: 30px;
     margin-right: 10px;
 }
+
+@media  screen and (max-width: 768px) {
+main{
+    flex-direction: column;
+    padding: 40px;
+}
+
+.principal{
+        width: 100%;
+    }
+
+.logo-header{
+        padding: 0;
+    }
+    
+.contenido-form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+form{
+        min-height: 70vh;
+        width: 100%;
+    }
+
+#botones{
+        width: 48%;
+    }
+
+.boton-desencriptar{
+        background: none;
+        margin-left: 4%;
+    }
+
+.area-resultado{
+        width: 100%;
+        min-height: max-content;
+        padding: 0;
+        margin-top: 64px;
+    }
+.contenido-inicio img{
+        display: none;
+    }
+    
+.contenido-resultado{
+    gap: 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+main{
+    padding: 24px 16px 40px 16px;
+}
+
+#botones{
+    width: 100%;
+    display: block;
+}
+
+.boton-desencriptar{
+    margin-left: 0;
+    margin-top: 24px;
+    }
+}
