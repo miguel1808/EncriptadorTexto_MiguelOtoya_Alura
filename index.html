@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Encriptador de Texto Alura</title>
@@ -13,7 +13,7 @@
 </head>
 <body class="grid-encryptor">
     <header class="encryptor-header">
-        <img class="encryptor-header__image" src="../Imagenes/logo.png" alt="">
+        <img class="encryptor-header__image" src="./imgs/logo.png" alt="Logo-alura">
         <h1 class="titulo">Encriptador de texto</h1>
     </header>
     <main class="container">
@@ -21,7 +21,7 @@
                     <textarea class="data-input"  cols="auto" rows="6" placeholder="Ingrese el texto aquí"></textarea>
                 <div class="interactivos">
                     <div class="nota">
-                        <img src="../Imagenes/icono_importante.png" >
+                        <img src="./imgs/icono_importante.png" >
                         <p>Solo letras minusculas y sin acentos</p>
                     </div>
                     <div class="data-botones">
@@ -31,7 +31,7 @@
                 </div>
         </section>
         <section class="output">
-            <img src="../Imagenes/Muñeco.png" alt="" class="muñeco" >
+            <img src="./imgs/Muñeco.png" alt="" class="muñeco" >
             <textarea class="data-output" readonly cols="30" rows="10"  placeholder="Ningún mensaje fue encontrado"></textarea>
             <p class="mensaje-info">Ingresa el texto que desees encriptar o desencriptar.</p>
             <button class="botonCopiar"  onclick="copiar()">Copiar</button>
@@ -40,10 +40,10 @@
     <footer>
         <p>Creado por Miguel Otoya - 2022</p>
         <a href="https://github.com/miguel1808" >
-            <img src="../Imagenes/logo_github.png" alt="Github" class="cuenta">
+            <img src="./imgs/logo_github.png" alt="Github" class="cuenta">
         </a>
         <a href="https://www.linkedin.com/in/miguelotoya1808/" >
-            <img src="../Imagenes/logo_linkedin.png" alt="linkedin" class="cuenta">
+            <img src="./imgs/logo_linkedin.png" alt="linkedin" class="cuenta">
         </a>
     </footer>
     <script src="script.js"></script>
